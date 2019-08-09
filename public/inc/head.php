@@ -15,6 +15,9 @@
 ArchivosHead::ListarFw('jquery', 'jquery.min.js');
 ArchivosHead::ListarFw('bootstrap/css', 'bootstrap.min.css');
 ArchivosHead::ListarFw('bootstrap/js', 'bootstrap.min.js');
+ArchivosHead::ListarFw('vuejs', 'vue.js');
+ArchivosHead::ListarFw('vuejs', 'vue-resource.min.js');
+
 //ArchivosHead::ListarFw('materialize/css', 'materialize.min.css');
 //ArchivosHead::ListarFw('materialize/js', 'materialize.min.js');
 ArchivosHead::ListarCarpetas('css');
