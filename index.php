@@ -2,7 +2,7 @@
 require './config.php';
 require './config_datos.php';
  
-$url        = (isset($_GET["url"])) ? $_GET["url"] : "Index/login";
+$url        = (isset($_GET["url"])) ? $_GET["url"] : "Cpanel/Login";
 $url        = explode("/", $url);
 $controller = (isset($url[0])) ? $url[0] . "_controller" : "Index_controller";
 $method     = (isset($url[1]) && $url[1] != null) ? $url[1] : "index";

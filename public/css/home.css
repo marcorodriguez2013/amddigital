@@ -1,0 +1,22 @@
+.navigation_padre {
+    background-color: #0BA360;
+    height: 60px;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 60px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation li {
+    padding: 0 10px;
+}
